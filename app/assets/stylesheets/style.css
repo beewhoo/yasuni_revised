@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin:0;
+}
+
+nav li  {
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+nav {
+  margin-bottom: 1em;
+}
+
+.logo img{
+  max-width: 70%;
+}
+
+.index {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+}
+
+.index img {
+  max-width: 20%;
+}
+
+li {
+  list-style: none;
+
+}
+
+.reviews ul {
+  border: 2px dashed black;
+  background-color: pink;
+}
+
+
+.flash {
+  font-size: 1.5em;
+  color:red;
+}

@@ -1,0 +1,22 @@
+<%=form_for [product, review] do |f| %>
+
+<p>
+  <%= f.label :name %><br>
+  <%= f.text_field :name %>
+</p>
+
+<p>
+  <%= f.label :message %><br>
+  <%= f.text_field :message %>
+</p>
+
+<p>
+  <%= f.label :rating %>(1-to-5)<br>
+  <%= f.text_field :rating %>
+
+  <p>
+     <%= f.submit "Submit Review" %>
+   </p>
+
+   <% end %>
+</p>
